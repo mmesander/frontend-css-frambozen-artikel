@@ -11,6 +11,7 @@ body {
     background-color: hsl(280, 13%, 87%);
     font-family: 'Poppins', 'Arial', sans-serif;
     font-weight: 300;
+    color: hsl(223, 10%, 36%)
 }
 
 h1 {
@@ -33,9 +34,6 @@ h3 {
     color: hsl(281, 26%, 48%);
 }
 
-p {
-    color: hsl(223, 10%, 36%);
-}
 /* -------------------------------------------- Specifieke Styling ------------------------------------------------ */
 #introduction {
     font-weight: 500;
