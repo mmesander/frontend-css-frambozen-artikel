@@ -1,0 +1,62 @@
+/*
+Tekstkleur: #535865 hsl(223, 10%, 36%)
+Contrastkleur: #865B9A hsl(281, 26%, 48%)
+Achtergrondkleur #DFD9E2 hsl(280, 13%, 87%)
+
+ */
+/* --------------------------------------------- Algemene Styling ------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+body {
+    background-color: hsl(280, 13%, 87%);
+    font-family: 'Poppins', 'Arial', sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    color: hsl(281, 26%, 48%);
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+h2 {
+    color: hsl(281, 26%, 48%);
+    font-family: 'Poppins', monospace;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 9px;
+}
+
+h3 {
+    color: hsl(281, 26%, 48%);
+}
+
+p {
+    color: hsl(223, 10%, 36%);
+}
+/* -------------------------------------------- Specifieke Styling ------------------------------------------------ */
+#introduction {
+    font-weight: 500;
+}
+
+.list-of-vitamins > li {
+    color: hsl(223, 10%, 36%);
+    font-weight: 300;
+}
+
+button {
+    background-color: hsl(281, 26%, 48%);
+    color: white;
+    font-family: 'Poppins', 'Arial', sans-serif;
+    font-size: 20px;
+    margin: 0px;
+    padding: 3px;
+    line-height: 20px;
+}
+
+button:hover {
+    background-color: white;
+    color: hsl(281, 26%, 48%);
+}
