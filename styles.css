@@ -41,13 +41,12 @@ h3 {
 
 .list-of-vitamins > li {
     color: hsl(223, 10%, 36%);
-    font-weight: 300;
+    list-style: square;
 }
 
 button {
     background-color: hsl(281, 26%, 48%);
     color: white;
-    font-family: 'Poppins', 'Arial', sans-serif;
     font-size: 24px;
     margin: 0px;
     padding: 3px;
