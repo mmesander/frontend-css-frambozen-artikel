@@ -23,11 +23,10 @@ h1 {
 
 h2 {
     color: hsl(281, 26%, 48%);
-    font-family: 'Poppins', monospace;
     text-align: center;
     text-transform: uppercase;
     font-weight: 500;
-    letter-spacing: 9px;
+    letter-spacing: 10px;
 }
 
 h3 {
